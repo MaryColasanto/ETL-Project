@@ -16,10 +16,10 @@ Types of data transformation included below:\
 -Deleted extraneous columns from the data source we did not feel necessary to include in our final SQL database.
 
 ## Load
-We loaded our cleaned tables into a SQL database by establishing a connection to a SQL database in Python. From our cleaned data we created 5 SQL tables (column names):
--Demographics (player_id, name, height, birth_year, birth_city, birth_state)
--Salary (player_id, salary, season, team)
--Position (player_id, position, shoots)
--Draft (player_id, draft_pick, draft_round, draft_team, draft_year)
+We loaded our cleaned tables into a SQL database by establishing a connection to a SQL database in Python with SQLAlchemy. From our cleaned data we created 5 SQL tables (column names):\
+-Demographics (player_id, name, height, birth_year, birth_city, birth_state)\
+-Salary (player_id, salary, season, team)\
+-Position (player_id, position, shoots)\
+-Draft (player_id, draft_pick, draft_round, draft_team, draft_year)\
 -Schools (player_id, high_school, hs_city, hs_state, college, college_2)
 
