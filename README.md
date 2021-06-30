@@ -10,10 +10,10 @@ We retrieved NBA player and salary data from data.world at the following web add
 We imported the csv files into a Jupyter Notebook and used python/pandas to perform our data transformation. 
 
 ## Transform
-Types of data transformation included below:\
--We edited data of inconsistent formats. For example, we used str.split method in pandas to remove the hyphen from the height column as well as the "lbs" suffix from the weight column. We also used str.split to separate columns with multiple words into separate columns to flatten the structure of our database.\
--We used the pandas "func" method to perform mathematical equations on the data - converting the height column from Feet-Inches to aggregated inches.\ 
--Deleted extraneous columns from the data source we did not feel necessary to include in our final SQL database.\
+Types of data transformation included below:  \n
+-We edited data of inconsistent formats. For example, we used str.split method in pandas to remove the hyphen from the height column as well as the "lbs" suffix from the weight column. We also used str.split to separate columns with multiple words into separate columns to flatten the structure of our database.  \n
+-We used the pandas "func" method to perform mathematical equations on the data - converting the height column from Feet-Inches to aggregated inches.  \n 
+-Deleted extraneous columns from the data source we did not feel necessary to include in our final SQL database.  \n
 
 ## Load
 We loaded our cleaned tables into a SQL database by establishing a connection to a SQL database in Python. From our cleaned data we created 5 SQL tables (column names):
